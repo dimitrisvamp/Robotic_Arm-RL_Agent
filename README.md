@@ -26,7 +26,7 @@ Special requirements:
 ## Uploaded Files
 The ***data*** folder contains all data that train and test procedures need, after data management, in form of txt files.
 
-There is also ***src*** folder that contains five python files:
+There is also ***src*** folder which contains five python files:
 1) ***BCO.py*** (BCO implementation for agent's training and testing).
 2) ***extract_data_from_cube_pos.py*** (extracting data according to cube's position, left-center-right side position).
 3) ***extract_demos_from_hdf5_to_txt.py*** (extracting data from robomimic to txt files).
