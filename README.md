@@ -36,11 +36,11 @@ There are also five python files:
 ## How to run
 For training mode run the following command at cmd: <br />
     &emsp; &emsp; &emsp; &emsp; ***BCO.py --state_dataset=state_cube_right.txt --nstate_dataset=nstate_cube_right.txt --action_dataset=action_cube_right.txt 
-    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;--mode=train --trained_model_dir=trained_model_right-64/ --max_episodes=1000 --print_freq=50***
+    --mode=train --trained_model_dir=trained_model_right-64/ --max_episodes=1000 --print_freq=50***
 
 For testing mode run the following command at cmd: <br />
     &emsp; &emsp; &emsp; &emsp; ***BCO.py --state_dataset=state_cube_right.txt --nstate_dataset=nstate_cube_right.txt --action_dataset=action_cube_right.txt 
-    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;--mode=test --trained_model_dir=trained_model_right-64/ --max_episodes=1000 --print_freq=50***
+    --mode=test --trained_model_dir=trained_model_right-64/ --max_episodes=1000 --print_freq=50***
 
 ## Special Notes
 For better agent's performance, it is suggested to train an agent for each cube's side position (left-side-agent, center-side-agent, right-side-agent).
